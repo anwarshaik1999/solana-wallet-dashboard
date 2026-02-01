@@ -1,8 +1,13 @@
-# solana-wallet-dashboard  
+# my-react-app
 
-## React + Vite
+A cleaned, minimal React + Vite starter prepared for building a brand new application.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Quick start ✅
+
+- Install dependencies: `npm install` or `pnpm install`
+- Run the dev server: `npm run dev`
+- Build for production: `npm run build`
+- Preview production build locally: `npm run preview`
 
 Currently, two official plugins are available:
 

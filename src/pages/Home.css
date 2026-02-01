@@ -1,0 +1,99 @@
+.home {
+  animation: fadeIn 0.3s ease-in;
+}
+
+.home h1 {
+  margin: 0 0 0.5rem 0;
+  font-size: clamp(1.75rem, 5vw, 2.5rem);
+  line-height: 1.2;
+}
+
+.home > p {
+  font-size: clamp(0.95rem, 2vw, 1.1rem);
+  color: #555;
+  margin: 0 0 1.5rem 0;
+}
+
+.features, .cta {
+  margin-top: clamp(1.5rem, 4vw, 2rem);
+  padding: clamp(1rem, 3vw, 1.5rem);
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+.features h2, .cta h2 {
+  margin-top: 0;
+  font-size: clamp(1.25rem, 3vw, 1.5rem);
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0 0;
+}
+
+.features li {
+  padding: 0.75rem 0;
+  font-size: clamp(0.9rem, 2vw, 1.05rem);
+  line-height: 1.5;
+}
+
+.cta p {
+  margin: 0.5rem 0 0 0;
+}
+
+.cta a {
+  color: #0066cc;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.cta a:hover,
+.cta a:active {
+  text-decoration: underline;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@media (max-width: 768px) {
+  .home h1 {
+    font-size: 1.75rem;
+  }
+
+  .features, .cta {
+    padding: 1rem;
+    margin-top: 1.5rem;
+  }
+
+  .features ul {
+    margin-top: 0.75rem;
+  }
+
+  .features li {
+    padding: 0.5rem 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .home h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .features, .cta {
+    padding: 0.75rem;
+    margin-top: 1.25rem;
+  }
+
+  .features ul {
+    margin-top: 0.5rem;
+  }
+
+  .features li {
+    padding: 0.4rem 0;
+    font-size: 0.9rem;
+  }
+}
